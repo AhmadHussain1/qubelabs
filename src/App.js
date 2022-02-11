@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Form from "./components/Form";
+import Header from "./components/Header";
+import Invest from "./components/Invest";
+import Qube from "./components/Qube";
+import Question from "./components/Question";
+import Stack from "./components/Stack";
+import Work from "./components/Work";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main-div">
+      <Header />
+      <Qube></Qube>
+      <Work></Work>
+      <Stack/>
+      <Invest></Invest>
+      <Question></Question>
+      <Form></Form>
+     
     </div>
   );
 }
