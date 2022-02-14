@@ -18,7 +18,7 @@ export default function Header() {
       </div>
 
       <div>
-        <ul>
+        <ul className="himg">
           <li>
             <img src="/images/s1.png" alt="" />
           </li>
